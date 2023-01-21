@@ -286,9 +286,10 @@ footer{
     justify-content: space-between;
     align-items: center;
     gap: 20px;
+    margin-top: 50px;
 }
 .case-images img{
-    width: 30%;
+    width: 100%;
     border-radius: 8px;
     
 }
@@ -397,8 +398,6 @@ footer{
         gap: inherit
     }
     .case-images img{
-        width: 100%;
-        border-radius: 8px;
         margin-bottom: 20px;
         
     }
