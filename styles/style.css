@@ -274,3 +274,99 @@ footer{
     color: var(--nav-link-color);
 
 }
+/* =========Responsive Desing for Mobile======= */
+@media (max-width: 575.98px) {
+    nav {
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;
+    }
+    nav ul {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    nav ul li {
+        margin: auto;
+        padding: 5px 0px;
+    }
+    nav h2 {
+        font-size: 35px;
+    }
+    .banner-content {
+        padding: 70px 15px 40px;
+    }
+    .banner-img {
+        width: 95%;
+    }
+    .flex-box {
+        gap: 50px;
+        flex-wrap: wrap;
+        gap: 0px;
+        justify-content: inherit;
+        width: 100%;
+        
+    }
+    .img-4 {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+    }
+    .fetures-content {
+        margin-top: 50px;
+    }
+    .flex-box.features {
+        gap: 50px;
+    }
+    .experiance-10 {
+        left: 0px;
+        font-size: 45px;
+        padding: 20px 42px;
+    }
+    h2{
+
+        font-size: 35px;
+    }
+    section{
+        padding: 0px 15px;
+    }
+    .experiance img{
+        width: 100%;
+    }
+    .width-39 {
+        width: 100%;
+    }
+    .facts-boxes {
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .single-box {
+        width: 48%;
+        padding: 35px 25px 45px;
+    }
+    .sponsor-header {
+        width: 100%;
+    }
+    .sponsor-company {
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 15px;
+    }
+    .sponsor-company img {
+        width: 100px;
+    }
+    .banner-title {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: initial;
+    }
+    .fetureslist-title {
+        width: 100%;
+    }
+    .fetureslist-title::after {
+        left: -36px;
+        top: 43px;
+        width: 80px;
+    }
+}
