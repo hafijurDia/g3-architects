@@ -37,6 +37,9 @@ h2{
     background-color: var(--titel-color);
     color: var(--yallow-color);
 }
+section{
+    margin-top: 80px;
+}
 
 /* header style */
 .header {
@@ -95,7 +98,7 @@ nav ul li:hover a {
 font-size: 64px;
 line-height: 75px;
 }
-.banner-description{
+.short-description{
     font-weight: 400;
 font-size: 16px;
 line-height: 26px;
@@ -104,4 +107,27 @@ color: var(--paragraph-color);
 }
 .banner-img{
     width: 100%;
+}
+/* quick fetures list section style */
+.quicklist{
+    padding: ;
+}
+.flex-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.img-4{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    gap: 2rem;
+}
+.img-4 img{
+    width: 100%;
+}
+h2 span.quicklist{
+    font-weight: 600;
+    color: var(--paragraph-color);
 }
