@@ -280,6 +280,18 @@ footer{
     color: var(--nav-link-color);
 
 }
+/* case study section desing */
+.case-images{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.case-images img{
+    width: 30%;
+    border-radius: 8px;
+    
+}
 /* =========Responsive Desing for Mobile======= */
 @media (max-width: 575.98px) {
     nav {
@@ -375,5 +387,22 @@ footer{
         left: -36px;
         top: 43px;
         width: 80px;
+    }
+    .case-images{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: inherit
+    }
+    .case-images img{
+        width: 100%;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        
+    }
+    .sponsors {
+        margin-top: 50px;
     }
 }
