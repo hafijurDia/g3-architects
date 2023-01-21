@@ -108,7 +108,7 @@ nav ul li:hover a {
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    margin: 40px 0px;
+    margin: 30px 0px;
     color: var(--paragraph-color);
 }
 
@@ -206,5 +206,71 @@ h2 span.quicklist {
     font-size: 25px;
     line-height: 40px;
     display: block;
+
+}
+.width-39{
+    width: 39%;
+}
+
+/* some facts styles  */
+.facts-boxes{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.single-box{
+    text-align: center;
+    border: 2px solid var(--yallow-color);
+    border-radius: 8px;
+    padding: 45px 35px 60px;
+}
+.single-box h2{
+    color: var(--nav-link-color);
+    margin: 5px 0px 5px;
+    font-weight: 600;
+}
+.single-box p{
+    font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+color: var(--paragraph-color);
+}
+/* sponsors sections styles */
+.sponsors{
+    margin-top: 120px;
+}
+.sponsor-header{
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+.sponsor-company{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.sponsor-company img{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+footer{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+.footer-content{
+    background-color: var(--main-bg-color);
+    text-align: center;
+    border-radius: 8px;
+    padding: 35px 0px
+
+    
+}
+.footer-content p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: var(--nav-link-color);
 
 }
